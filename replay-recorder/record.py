@@ -1,14 +1,11 @@
-import pyautogui
 import cv2
-import numpy as np
 import keyboard
-import time
 import numpy as np
 from windows_capture import WindowsCapture, Frame, InternalCaptureControl
 
 DEBUG = False
 target_fps = 60
-frame_size = (426, 240)
+frame_size = (213, 120)
 
 # Output video
 out = cv2.VideoWriter(
